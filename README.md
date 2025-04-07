@@ -86,6 +86,28 @@ Tailwind CSS: For styling the application.
 ```plaintext
 Diagram
 Below is a structured diagram of the application's workflow:
++-------------------+
+|   User Interface  |
+| (UserInput, Repo  |
+|  List, CommitChart)|
++-------------------+
+          |
+          v
++-------------------+
+|  useGitHubAPI Hook|
+| Fetches Repos and |
+| Commit Data from  |
+| GitHub API        |
++-------------------+
+          |
+          v
++-------------------+
+|  GitHub API       |
+| (Public Repos and |
+| Commit Endpoints) |
++-------------------+
+
+```
 
 API Endpoints Used
 Fetch Repositories:
@@ -101,5 +123,4 @@ Dark Mode: Add a dark mode toggle for better accessibility.
 Deployment: Deploy the app on platforms like Vercel or Netlify.
 Authentication: Authentication can be done to increase the request limit from github.
 
-```
 
