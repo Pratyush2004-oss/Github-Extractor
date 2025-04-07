@@ -39,7 +39,7 @@ src/
 │   ├── [github.ts](http://_vscodecontentref_/7)               # TypeScript interfaces for GitHub data
 ├── [App.tsx](http://_vscodecontentref_/8)                     # Main application component
 ├── index.tsx                   # Entry point for the React app
-
+```
 
 How It Works
 1. User Input
@@ -83,7 +83,7 @@ Recharts: For visualizing commit data in a bar chart.
 Axios: For making API requests to GitHub.
 Tailwind CSS: For styling the application.
 
-
+```plaintext
 Diagram
 Below is a structured diagram of the application's workflow:
 
